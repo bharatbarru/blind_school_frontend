@@ -5,22 +5,20 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 import { ImageListItem } from '@mui/material';
-import icon from '../assets/images/logo.png'
+import icon from '../assets/images/logo1.png'
 const pages = [
   { pagename: 'Home', pagelink: '/' },
   { pagename: 'About', pagelink: '/about' },
   { pagename: 'Contact', pagelink: '/contact' },
-  { pagename: 'Events', pagelink: '/events' },
-  { pagename: 'Clubs', pagelink: '/clubs' },
 ];
 
 
 function Header() {
   return (
-    <AppBar position="static" sx={{ backgroundColor:'white'}}>
+    <AppBar position="static" sx={{ backgroundColor:'teal'}}>
       <Container>
-        <Toolbar disableGutters sx={{ justifyContent: 'space-evenly', alignItems: 'center' }}>
-              <ImageListItem sx={{ width: 75, height: 75 }}>
+        <Toolbar disableGutters sx={{ justifyContent: 'space-evenly', alignItems: 'right' }}>
+              <ImageListItem sx={{ width: 100, height: 120 }}>
                 <img alt="Remy Sharp" src={icon} />
               </ImageListItem>
               {pages.map((page) => (
@@ -32,7 +30,6 @@ function Header() {
                   </Link>
                 </Button>
               ))}    
-          <Button variant="contained" color="primary">Call Us</Button>
         </Toolbar>
       </Container>
     </AppBar>
