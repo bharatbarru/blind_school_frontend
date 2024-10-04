@@ -9,7 +9,7 @@ import carousel3 from '../assets/images/carousel3.png'
 
 export default function SimpleSlider() {
   var settings = {
-    dots: true,
+    dots: false,
     arrows: false,
     infinite: true,
     speed: 1500,

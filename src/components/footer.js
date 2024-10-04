@@ -49,7 +49,7 @@ const Footer = () => {
                <br />
               Opp Raddison Hotel Rushikonda <br />
               Phone: 6304758607 <br />
-              Email: bharat.barru57@gmail.com
+              Email: tabiabegum250119@gmail.com
             </Typography>
           </Grid>
         </Grid>
