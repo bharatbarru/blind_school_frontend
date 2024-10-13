@@ -12,11 +12,13 @@ function Homepage() {
         <>
           <SimpleSlider />
           <Welcomesection />
-          <Section2 />
           <InfoCards />
+         
+          <Section2 />
+          <Boxcard />
+          
           <ContentCards />
           <HighlightedSection />
-          <Boxcard />
         </>
   )
 }
