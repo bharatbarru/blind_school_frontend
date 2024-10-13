@@ -25,15 +25,15 @@ export default function SimpleSlider() {
 
   return (
     <Slider {...settings}>
-      {images.map((src, index) => (
-        <Box key={index}>
-          <img
-            src={src}
-            style={{ width: '100%', height: '550px' }} 
-            alt="banner images"
-          />
-        </Box>
-      ))}
-    </Slider>
+    {images.map((src, index) => (
+      <Box key={index}>
+        <img
+          src={src}
+          style={{ width: '100%', height: '550px', objectFit: 'cover' }} 
+          alt={`Banner image ${index + 1}`}
+        />
+      </Box>
+    ))}
+  </Slider>
   );
 }
