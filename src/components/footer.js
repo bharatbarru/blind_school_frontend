@@ -1,6 +1,5 @@
 import React from 'react';
 import { Box, Container, Typography, Grid, Link, ImageListItem } from '@mui/material';
-import { teal } from '@mui/material/colors';
 import icon from '../assets/images/logo1.png';
 
 const Footer = () => {
@@ -54,7 +53,6 @@ const Footer = () => {
           </Grid>
         </Grid>
 
-        {/* Bottom Bar */}
         <Box sx={{ marginTop: '2rem', textAlign: 'center', borderTop: '1px solid #fff', paddingTop: '1rem' }}>
           <Typography variant="body2" sx={{ color: '#fff' }}>
             © {new Date().getFullYear()} Blind School for Girls. All rights reserved.
