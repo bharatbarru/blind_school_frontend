@@ -30,6 +30,7 @@ export default function SimpleSlider() {
           <img
             src={src}
             style={{ width: '100%', height: '550px' }} 
+            alt="banner images"
           />
         </Box>
       ))}
